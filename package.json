@@ -1,0 +1,28 @@
+{
+  "name": "nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "codegen": "graphql-codegen --config codegen.ts"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.9.8",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@graphql-codegen/cli": "^5.0.2",
+    "@graphql-codegen/typescript": "^4.0.6",
+    "@graphql-codegen/typescript-operations": "^4.2.0",
+    "@graphql-codegen/typescript-react-apollo": "^4.3.0",
+    "@mui/material": "^5.15.12",
+    "@reduxjs/toolkit": "^2.2.1",
+    "graphql": "^16.8.1",
+    "next": "13.5.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^9.1.0"
+  }
+}
